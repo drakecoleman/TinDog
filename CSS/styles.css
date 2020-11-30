@@ -1,0 +1,78 @@
+/*====================
+        Fonts
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+====================*/
+* {
+  font-family: "Montserrat", sans-serif;
+}
+#title {
+  background-color: pink;
+  padding: 0;
+}
+#bullshit {
+  padding: 3% 15%;
+}
+.navbar .navbar-brand {
+  margin-right: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.col-lg-6 h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.nav-link {
+  font-size: 1.2rem;
+
+  margin: auto 1.5rem;
+}
+
+#navbarSupportedContent .ml-auto {
+  width: 50%;
+}
+
+.col-lg-6 img {
+  margin-top: 5rem;
+  transform: rotate(20deg);
+  width: 60%;
+}
+
+nav .navbar-brand {
+  margin-left: -1rem;
+}
+
+.btn-dark {
+  margin-left: 1rem;
+}
+
+.col-lg-6 button {
+  margin-top: 3rem;
+}
+.naked {
+  margin-top: 4rem;
+}
+/*========================
+      2nd Section
+========================*/
+#features {
+  margin: 10% auto;
+}
+.col-lg-4 h3 {
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.col-lg-4 p {
+  text-align: center;
+  padding: 5% 25%;
+}
+.fas {
+  color: red;
+}
+h3 .fas:hover {
+  color: blue;
+}
