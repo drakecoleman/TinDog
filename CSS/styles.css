@@ -36,12 +36,17 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .col-lg-6 img {
-  margin-top: 5rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
   transform: rotate(20deg);
-  width: 60%;
+  width: 50%;
+}
+.phone img {
+  position: absolute;
+  z-index: 3;
 }
 
-nav .navbar-brand {
+.col-lg-6 nav .navbar-brand {
   margin-left: -1rem;
 }
 
@@ -96,6 +101,7 @@ h3 .fas:hover {
   align-items: center;
   display: flex;
   justify-content: center;
+  padding-top: 5%;
 }
 #press div {
   margin: 3%;
@@ -103,4 +109,46 @@ h3 .fas:hover {
 #press div img {
   width: 50%;
   margin: auto 25%;
+}
+
+#pricing {
+  padding: 2%;
+  text-align: center;
+}
+#pricing h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+#pricing .card {
+  box-shadow: 10px 5px grey;
+}
+#pricing .card-header {
+  background-color: pink;
+}
+.card-body {
+  text-align: center;
+}
+.card-body h2 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
+}
+.card-footer {
+  text-align: center;
+}
+.card-footer button {
+  padding: 2% 5%;
+  font-family: "Montserrat", sans-serif;
+  background-color: pink;
+  transition: 0.5s ease-out;
+  border-radius: 20%;
+  border-color: pink;
+}
+.card-footer button:hover {
+  background-color: grey;
+  transform: rotate(360deg);
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-color: grey;
+  color: pink;
 }
