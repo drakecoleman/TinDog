@@ -6,6 +6,7 @@ font-family: 'Ubuntu', sans-serif;
 * {
   font-family: "Montserrat", sans-serif;
 }
+
 #title {
   background-color: pink;
   padding: 0;
@@ -49,6 +50,9 @@ font-family: 'Ubuntu', sans-serif;
 .col-lg-6 nav .navbar-brand {
   margin-left: -1rem;
 }
+/*==============
+    Title
+==============*/
 
 .btn-dark {
   margin-left: 1rem;
@@ -110,18 +114,25 @@ h3 .fas:hover {
   width: 50%;
   margin: auto 25%;
 }
+/*==================
+    Pricing Cards
+===================*/
+#pricing .row {
+  margin-right: 0;
+}
 
 #pricing {
-  padding: 2%;
   text-align: center;
+  /* align-items: center; */
 }
 #pricing h2 {
   font-weight: bold;
   font-size: 3rem;
 }
-#pricing .card {
-  box-shadow: 10px 5px grey;
+.cards {
+  padding: 1%;
 }
+
 #pricing .card-header {
   background-color: pink;
 }
@@ -151,4 +162,75 @@ h3 .fas:hover {
   font-weight: bold;
   border-color: grey;
   color: pink;
+}
+
+/* =============
+    @Media
+============== */
+@media (max-width: 1000px) {
+  .phone img {
+    margin-top: 3rem;
+    transform: rotate(0);
+    position: relative;
+    z-index: 0;
+  }
+  .naked {
+    text-align: center;
+  }
+  .phone {
+    text-align: center;
+  }
+}
+/*========================
+      Last Section
+========================*/
+
+#cta {
+  background-color: pink;
+  text-align: center;
+  padding: 3% 20%;
+}
+#cta h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: 1rem auto 0rem;
+  word-spacing: 2rem;
+  position: relative;
+}
+#cta h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-top: 3rem;
+  word-spacing: 2rem;
+}
+#cta div img {
+  text-align: center;
+  border-radius: 100%;
+  width: 40%;
+}
+.first {
+  text-align: left;
+}
+.second {
+  margin-top: 0rem;
+  text-align: right;
+}
+span {
+  position: absolute;
+  top: 0.2rem;
+  right: -7rem;
+}
+
+#cta button {
+  margin-bottom: 1rem;
+}
+#footer {
+  text-align: center;
+}
+#footer i {
+  margin: 5%;
 }
